@@ -1,0 +1,50 @@
+#tabs{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 80px;
+	z-index: 0;
+}
+
+#controls{
+	float: left;
+	width: 24%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+#controls label{
+	
+}
+
+#controls div{
+	margin-top: 15%;
+}
+
+#control1  input[type=button]{
+	width: 25px;
+	height: 25px;
+	background:url(../images/search.png) no-repeat;
+	float: right;
+}
+
+#control3 input{
+	display: block;
+	text-align: center;
+    margin : 0 auto;
+}
+
+#control4 input{
+	width: 40%;
+}
+
+#map-canvas{
+	height: 500px;
+	width: 70%;
+	margin-left: 50px;
+}
+
+#directions-panel{
+	
+}
+
+

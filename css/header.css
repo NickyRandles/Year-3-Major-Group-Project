@@ -1,0 +1,115 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
+}
+
+header img{
+	height: 17%;
+	width: 50%;
+	float: left;
+}
+
+#login {
+	float: right;
+	margin-top: 3.5%;
+	margin-right: 3%;
+	width: 10%;
+	border: 1px solid black;
+	padding: 0.5%;
+	text-align: center;
+	background-color: #00BFFF;
+	color: white;
+	text-decoration: none;
+}
+
+#login:hover{
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+}
+
+nav{
+	width: 80%;
+	margin: 0 auto;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	clear: both;
+}
+
+nav ul li{
+
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	width: 20%;
+	text-align: center;
+	background-color: #00BFFF;
+	z-index: 3;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li li{
+	display: none;
+	width: 100%;
+}
+
+nav li{
+   position: relative; 
+}
+
+header form{
+	padding-top: 1%;
+	margin-left: 29%;
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+header form label{
+	display: block;
+	float: left;
+	width: 5%;
+	margin-top: 0.6%;
+}
+ 
+header input[type=text]{
+	padding: 0.5%;
+	width: 20%;
+
+}
+
+#searchSuggestions{
+	position: absolute;
+	width: 20%;
+	padding: 5px;
+	margin-left: 5%;
+	margin-top: -3px;
+	z-index: 3;
+}
+
+#searchSuggestions li{
+	list-style-type: none;
+	border: 1px solid blue;
+	background-color: cyan;
+	padding: 5px;
+}
+
+select{
+	padding: 0.5%;
+}
+
+header input[type=submit]{
+	padding: 0.5%;
+	width: 10%;
+}
+
+footer{
+	text-align: center;
+	margin-top: 5%;
+}

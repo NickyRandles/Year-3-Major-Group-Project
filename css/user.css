@@ -1,0 +1,89 @@
+#info{
+	margin-top: 35px;
+	width: 60%;
+	border: 1px solid #00BFFF;
+	float: left;
+	padding: 1%;
+	text-align: center;
+	margin-left: 2%;
+}
+#info h1{
+	text-align: center;
+}
+#info button{
+	padding: 4px;
+	width: 60%;
+	background-color: #58FAF4;
+	color: black;
+	border-radius: 5px;
+}
+#info select{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+#profilePic img{
+	width: 20%;
+	height: 20%;
+}
+#posts{
+	margin-top: 35px;
+	margin-right: 2%;
+	width: 30%;
+	border: 1px solid #00BFFF;
+	float: right;
+	text-align: center;
+	padding: 1%;
+}
+#friends, #groups{
+	width: 30%;
+	border: 1px solid #00BFFF;
+	float: right;
+	margin-top: 2%;
+	margin-right: 2%;
+	text-align: center;
+	padding: 1%;
+}
+#friends img{
+	height: 30%;
+	width: 30%;
+}
+
+#groups div{
+	float: left;
+	width: 49%;
+}
+
+#groups img{
+	width: 90%;
+}
+
+#view{
+	clear: both;
+	padding-top: 10px;
+}
+#reportIssues img{
+	width: 20px;
+	height: 20px;
+}
+
+table{
+	border-collapse: collapse;
+	border: 2px solid blue;
+	width: 50%;
+	margin: 0 auto;
+}
+td{
+	padding: 10px;
+}
+tr:nth-child(1), tr:nth-child(3), tr:nth-child(5), tr:nth-child(7), tr:nth-child(9){ 
+	background-color: cyan;
+}
+tr:nth-child(2), tr:nth-child(4), tr:nth-child(6), tr:nth-child(8), tr:nth-child(10){ 
+	background-color: #00BFFF;
+}
+
+td:first-child{
+	font-weight: bold;
+}
+		

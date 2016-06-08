@@ -1,0 +1,35 @@
+#loginForm{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 3%;
+	background-color: #BFEFFF;
+	border: 5px solid #007FFF;
+	border-radius: 10px;
+	padding: 1%;
+	font-family: Georgia, serif;
+}
+
+#loginForm div{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#loginForm input[type=text], #loginForm input[type=password]{
+	padding: 1%;
+}
+
+#loginForm input[type=submit]{
+	width: 20%;
+	padding: 5px;
+	border: 1px solid white;
+	margin-left: 30%;
+}
+
+#registerForm input[type=submit]:hover{
+	border: 1px solid black;
+	background-color: white;
+}
+
+#loginForm input{
+	margin-top: 5px;
+}

@@ -1,0 +1,30 @@
+#info{
+	width: 80%;
+	margin-left: 9%;
+	margin-top: 3%;
+	background-color: #BFEFFF;
+	border: 5px solid #007FFF;
+	border-radius: 10px;
+	padding: 1%;
+	font-family: Georgia, serif;
+}
+
+/*Slide show style*/
+#photoShow {
+    height: 360px;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#photoShow div {
+    position:absolute;
+    z-index: 0;
+}
+#photoShow div.previous {
+    z-index: 1;
+}
+
+#photoShow div.current {
+    z-index: 2;
+}
